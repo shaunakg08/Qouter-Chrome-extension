@@ -1,18 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&family=Zen+Old+Mincho:wght@900&display=swap');
 html {
-    background-color: whitesmoke;
+    background-image: url("bg.jpg");
 }
 
 body {
     width: 300px;
     height: 150px;
-    background-color: peachpuff;
     display: flex;
     justify-content: center;
-    border: 10px solid lightcoral;
-    border-radius: 7px;
 }
 
 blockquote {
+    font-family: 'Zen Old Mincho', serif;
     display: inner-flex;
     margin: 10px 10px 10px 10px;
     font-size: 15px;
@@ -20,6 +19,7 @@ blockquote {
 }
 
 #author {
+    font-family: 'Roboto Mono', monospace;
     position: absolute;
     right: 25px;
 }
